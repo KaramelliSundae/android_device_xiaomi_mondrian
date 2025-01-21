@@ -16,6 +16,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := 23013PC75G
 
+# crDroid 
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true  
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="mondrian_global-user 14 UKQ1.230804.001 V816.0.10.0.UMNMIXM release-keys" \
     BuildFingerprint=POCO/mondrian_global/mondrian:14/UKQ1.230804.001/V816.0.10.0.UMNMIXM:user/release-keys \
@@ -23,3 +27,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemName=mondrian_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
